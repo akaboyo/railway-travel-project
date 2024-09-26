@@ -1,6 +1,12 @@
 # Railway Travel Company 
 
-## TABLE OF CONTENTS
+## Table of Contents
+- [PROJECT OVERVIEW](#project-overview)
+- [PROBLEM STATEMENT](#problem-statement)
+- [DATA SOURCE](#data-source)
+- [DATA PREPROCESSING](#data-preprocessing)
+- [DATA ANALYSIS](#data-analysis)
+- [RECOMMENDATION](#recommendation)
 
 ## PROJECT OVERVIEW 
 I have just been hired as a data analyst to help start a company that will focus on booking railway travel.
