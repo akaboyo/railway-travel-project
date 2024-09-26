@@ -29,9 +29,11 @@ The team has shared the following factors with me, in order of importance:
 
 ## DATA SOURCE
 
-The dataset used for this analysis is World Development Indicators which is attached below:
+The dataset used for this analysis is World Development Indicators which contains 1,521 rows and 8 fields, and this is attached below:
 
 [World-Development-Indicators dataset.xlsx](https://github.com/user-attachments/files/17147007/World-Development-Indicators.dataset.xlsx)
+
+A closer look at the dataset shows that each country appears multiple times and there are multiple years of data. To get the most up-to-date information, i filtered on 2019. Since this filter is to be applied throughout the entire workbook and not just a single visualization, i had to set this up as a data source filter. This left me 217 rows of 2019 data to analyse.
 
 ## DATA PREPROCESSING/TRANSFORMATION
 
