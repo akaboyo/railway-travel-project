@@ -84,5 +84,6 @@ Since the highest priority is to identify countries that have a high passenger u
 
 ### KEY INSIGHTS
 - China has the highest passenger distance travelled with 1,438,606
-- United States ranks high in having a lot of existing railways but doesn't seem to be carrying very many passengers when considering the total length of existing railways.
+- United States ranks high in having a lot of existing railways (i.e 149,489 railways), but only carried 32,483 passengers when considering the total length of existing railways.
+![Bar chart](https://github.com/user-attachments/assets/efa42405-1c52-42a8-8a18-b776c055f2de)
 
