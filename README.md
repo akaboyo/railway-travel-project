@@ -87,6 +87,10 @@ Since the highest priority is to identify countries that have a high passenger u
 - United States ranks high in having an extensive railway network (i.e 149,489 railways), but only carried 32,483 passengers when considering the total length of existing railways.
 ![Bar chart](https://github.com/user-attachments/assets/efa42405-1c52-42a8-8a18-b776c055f2de)
 
-- Ten Countries are responsible for carrying over 91% of the distance traveled by passengers worldwide. These same countries contain over 60.1% of the world's rails. These countries, are referred to as the Top 10.
+- Ten Countries are responsible for carrying over 91% of the distance traveled by passengers worldwide. These same countries contain over 60.1% of the world's rails. These countries, are referred to as the Top 10. I created a set to visualize this analysis as shown below:
 
 ![Top 10](https://github.com/user-attachments/assets/8c13d119-1ac8-4ce9-a067-17efaa076cba)
+
+The next top priorities are focused on business-related fields — specifically, the GDP per capita and the ease of doing business. Ideally, we’ll want to set up the business in a country that has a high GDP per capita AND ease of doing business score. 
+i created a scatter plot with the Business Score on the x-axis and GDP Per Capita on the y-axis. (Note: i first had to create a calculated field for the GDP Per Capita, which is the GDP divided by the Population.)
+
