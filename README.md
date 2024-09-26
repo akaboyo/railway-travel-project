@@ -33,3 +33,23 @@ The dataset used for this analysis is World Development Indicators which is atta
 
 [World-Development-Indicators dataset.xlsx](https://github.com/user-attachments/files/17147007/World-Development-Indicators.dataset.xlsx)
 
+## DATA PREPROCESSING/TRANSFORMATION
+
+Some fields of the dataset were renamed and transformed so as to be suitable for analysis:
+
+### Renaming Fields
+- Country Name → Country: Simplified for clarity.
+- Time → Year: Standardizing the term to represent the specific year for analysis.
+- Ease of Doing Business Score → Business Score: The name has been shortened to keep the focus on the business metric.
+- Railways, Passengers Carried → Passenger Distance Traveled: Renamed to better reflect the type of data.
+- ternational Tourism, Number of Arrivals → Incoming Tourists: Simplified for ease of interpretation.
+
+### Assigning Data Types
+- Country: Identified as a Geographic field, indicating that this column contains location-related data.
+- Year: Set as a Date type, suggesting this field is used for time-based analysis.
+- GDP: Assigned as a Number (whole), indicating GDP values are non-decimal whole numbers.
+- Business Score: Defined as a Number (decimal), indicating the data has precision and requires decimal values.
+- Rail Lines: Marked as a Number (decimal), also requiring decimal precision.
+- Passenger Distance Traveled: Number (decimal) type, where distance data likely includes decimals.
+- Incoming Tourists: Categorized as Number (whole), implying the tourist count is an integer.
+
