@@ -94,3 +94,6 @@ Since the highest priority is to identify countries that have a high passenger u
 The next top priorities are focused on business-related fields — specifically, the GDP per capita and the ease of doing business. Ideally, we’ll want to set up the business in a country that has a high GDP per capita AND ease of doing business score. 
 i created a scatter plot with the Business Score on the x-axis and GDP Per Capita on the y-axis. (Note: i first had to create a calculated field for the GDP Per Capita, which is the GDP divided by the Population.)
 
+![Top 6](https://github.com/user-attachments/assets/5c76ba20-0b40-4898-86c7-39a3dfada52c)
+- Of the ten countries previously selected based on rail travel, the selection is narrowed down to six based on the ease of doing business score and the GDP Per Capita.The six (06) countries are : United States, Germany, France, Japan, United Kingdom and Korea Republic.
+
