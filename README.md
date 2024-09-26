@@ -78,3 +78,11 @@ I placed a few related fields together and organized them into the following fol
 
      - Rail Lines
 
+## DATA ANALYSIS/VISUALIZATION
+
+Since the highest priority is to identify countries that have a high passenger usage of existing railways, i created a bar chart to see how the countries compare with one another.
+
+### KEY INSIGHTS
+- China has the highest passenger distance travelled with 1,438,606
+- United States ranks high in having a lot of existing railways but doesn't seem to be carrying very many passengers when considering the total length of existing railways.
+
