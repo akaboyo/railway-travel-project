@@ -62,16 +62,17 @@ I placed a few related fields together and organized them into the following fol
 
      - GDP
 
-Country
+- Country
 
-Country
+     - Country
 
-Population
+     - Population
 
-Travel
+- Travel
 
-Incoming Tourists
+     - ncoming Tourists
 
-Passenger Distance Traveled
+     - Passenger Distance Traveled
 
-Rail Lines
+     - Rail Lines
+
