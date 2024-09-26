@@ -53,3 +53,25 @@ Some fields of the dataset were renamed and transformed so as to be suitable for
 - Passenger Distance Traveled: Number (decimal) type, where distance data likely includes decimals.
 - Incoming Tourists: Categorized as Number (whole), implying the tourist count is an integer.
 
+### Organizing the Fields
+I placed a few related fields together and organized them into the following folders:
+
+- Business
+
+     - Business Score
+
+     - GDP
+
+Country
+
+Country
+
+Population
+
+Travel
+
+Incoming Tourists
+
+Passenger Distance Traveled
+
+Rail Lines
