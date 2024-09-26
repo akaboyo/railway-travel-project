@@ -108,3 +108,4 @@ I built a map with the six countries above to see their geographic relationship 
 ## RECOMMENDATION
 After a thorough analysis, France emerges as the top pick. It stands out in passenger volume and extensive rail lines, striking a perfect balance with its robust economy and business-friendly environment. Its geographic location offers potential for international expansion, notably with promising neighboring countries. Moreover, France's exceptional tourist appeal, leading in visitor inflow, presents a lucrative market for rail travel. These combined factors make France the most promising country for establishing the new rail travel company.
 
+[View Dashboard Here](https://public.tableau.com/shared/37M2BSZNQ?:display_count=n&:origin=viz_share_link)
