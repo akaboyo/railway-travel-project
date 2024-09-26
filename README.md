@@ -1,5 +1,7 @@
 # Railway Travel Company 
 
+## TABLE OF CONTENTS
+
 ## PROJECT OVERVIEW 
 I have just been hired as a data analyst to help start a company that will focus on booking railway travel.
 
