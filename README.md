@@ -1,6 +1,6 @@
 # Railway Travel Company 
 
-## Project Overview: 
+## PROJECT OVERVIEW 
 I have just been hired as a data analyst to help start a company that will focus on booking railway travel.
 
 I have access to a dataset that contains valuable country information, including gross domestic product (GDP), the extent of railway infrastructure, ease of doing business score, and more.
@@ -35,7 +35,7 @@ The dataset used for this analysis is World Development Indicators which contain
 
 A closer look at the dataset shows that each country appears multiple times and there are multiple years of data. To get the most up-to-date information, i filtered on 2019. Since this filter is to be applied throughout the entire workbook and not just a single visualization, i had to set this up as a data source filter. This left me 217 rows of 2019 data to analyse.
 
-## DATA PREPROCESSING/TRANSFORMATION
+## DATA PREPROCESSING
 
 Some fields of the dataset were renamed and transformed so as to be suitable for analysis:
 
@@ -78,7 +78,7 @@ I placed a few related fields together and organized them into the following fol
 
      - Rail Lines
 
-## DATA ANALYSIS/VISUALIZATION
+## DATA ANALYSIS
 
 Since the highest priority is to identify countries that have a high passenger usage of existing railways, i created a bar chart to see how the countries compare with one another.
 
