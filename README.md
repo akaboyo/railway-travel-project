@@ -97,3 +97,11 @@ i created a scatter plot with the Business Score on the x-axis and GDP Per Capit
 ![Top 6](https://github.com/user-attachments/assets/5c76ba20-0b40-4898-86c7-39a3dfada52c)
 - Of the ten countries previously selected based on rail travel, the selection is narrowed down to six based on the ease of doing business score and the GDP Per Capita.The six (06) countries are : United States, Germany, France, Japan, United Kingdom and Korea Republic.
 
+It would be nice to think about the possibility of future international expansion, ideally meaning i select a country that has neighboring countries that are also promising.
+I built a map with the six countries above to see their geographic relationship with one another and to see if there are any countries to remove from the list. 
+- The map shows that France and Germany share a land border.
+
+![Map](https://github.com/user-attachments/assets/61065c20-0878-450b-8d0e-9c44c7e89ced)
+
+- Of the two countries that share a geographic proximity, France has a significantly higher number of incoming tourists (i.e 217,877,000) which is roughly 5.5 times as many incoming tourists as Germany, indicating a substantially larger and more lucrative market for rail travel. This significant difference in tourist numbers suggests greater potential for customer base expansion and revenue generation in the rail market.
+
