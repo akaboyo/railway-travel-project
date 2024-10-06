@@ -1,5 +1,7 @@
 # Railway Travel Company 
 
+![Railway logo](https://github.com/user-attachments/assets/4bec1009-7af5-4806-89a8-6f9b5d92cfe6)
+
 ## Table of Contents
 - [PROJECT OVERVIEW](#project-overview)
 - [PROBLEM STATEMENT](#problem-statement)
