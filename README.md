@@ -3,90 +3,49 @@
 ![Railway logo](https://github.com/user-attachments/assets/4bec1009-7af5-4806-89a8-6f9b5d92cfe6)
 
 ## Table of Contents
+- [EXECUTIVE SUMMARY](#executive-summary)
 - [PROJECT OVERVIEW](#project-overview)
-- [PROBLEM STATEMENT](#problem-statement)
+- [BUSINESS PROBLEM](#business-problem)
 - [DATA SOURCE](#data-source)
 - [DATA PREPROCESSING](#data-preprocessing)
 - [DATA ANALYSIS](#data-analysis)
 - [RECOMMENDATION](#recommendation)
 
+## Executive Summary
+
+This project demonstrates how data can be translated into clear business recommendations to support market entry decisions for a railway travel startup. Using global development and transport indicators, the analysis evaluates rail passenger demand, infrastructure maturity, economic strength, and ease of doing business to identify countries with the strongest commercial potential.
+
+The work prioritises practical business questions over technical complexity, combining multiple indicators into a coherent decision framework. Visual dashboards and comparative charts are used to highlight trade-offs between demand, economic viability, and operational feasibility. The outcome is a structured, evidence-based recommendation that mirrors how business analysts support strategic planning, investment decisions, and executive discussions.
+
+This project showcases core business analyst capabilities: problem framing, metric selection, insight generation, and stakeholder-ready communication.
 ## PROJECT OVERVIEW 
-I have just been hired as a data analyst to help start a company that will focus on booking railway travel.
+This is a **data analytics project** that helps determine the best country to launch a new railway travel company based on global economic and rail usage metrics. The analysis combines infrastructure, travel demand, economic performance, and business environment factors to support strategic decision-making.
 
-I have access to a dataset that contains valuable country information, including gross domestic product (GDP), the extent of railway infrastructure, ease of doing business score, and more.
+## BUSINESS PROBLEM 
 
-I have been asked to use this data to make a data-driven recommendation as to which country the business should select to launch its startup.
+As a newly hired data analyst for a startup railway travel company, the goal was to identify markets with the **strongest potential for success**. 
+The key questions addressed are:
 
-## PROBLEM STATEMENT
-
-To succeed in this endeavor, i considered various factors that can influence the business's success such as:
-
-- Should Railway Travel Coy prioritize a country with a high GDP or one with a favorable ease of doing business score?
-
-- How might the presence of railways and the number of passengers affect the business?
-
-- How important is the number of incoming international visitors?
-
-The team has shared the following factors with me, in order of importance:
-
-- Current usage of the existing railways.
-
-- Total length of existing railways.
-
-- GDP per capita.
-
-- Ease of conducting business.
+- Which countries have the greatest existing rail usage?
+- How does rail usage align with economic strength and ease of doing business?
+- Which markets offer a balance of infrastructure, demand, and growth potential?
 
 ## DATA SOURCE
 
-The dataset used for this analysis is World Development Indicators which contains 1,521 rows and 8 fields, and this is attached below:
+The analysis uses the **World Development Indicators dataset**, which contains country-level metrics including:
 
-[World-Development-Indicators dataset.xlsx](https://github.com/user-attachments/files/17147007/World-Development-Indicators.dataset.xlsx)
+- Passenger distance travelled by rail
+- Total length of rail infrastructure
+- GDP and GDP per capita
+- Ease of doing business score
 
-A closer look at the dataset shows that each country appears multiple times and there are multiple years of data. To get the most up-to-date information, i filtered on 2019. Since this filter is to be applied throughout the entire workbook and not just a single visualization, i had to set this up as a data source filter. This left me 217 rows of 2019 data to analyse.
+Download dataset here [World-Development-Indicators dataset.xlsx](https://github.com/user-attachments/files/17147007/World-Development-Indicators.dataset.xlsx)
 
 ## DATA PREPROCESSING
 
-Some fields of the dataset were renamed and transformed so as to be suitable for analysis:
-
-### Renaming Fields
-- Country Name → Country: Simplified for clarity.
-- Time → Year: Standardizing the term to represent the specific year for analysis.
-- Ease of Doing Business Score → Business Score: The name has been shortened to keep the focus on the business metric.
-- Railways, Passengers Carried → Passenger Distance Traveled: Renamed to better reflect the type of data.
-- ternational Tourism, Number of Arrivals → Incoming Tourists: Simplified for ease of interpretation.
-
-### Assigning Data Types
-- Country: Identified as a Geographic field, indicating that this column contains location-related data.
-- Year: Set as a Date type, suggesting this field is used for time-based analysis.
-- GDP: Assigned as a Number (whole), indicating GDP values are non-decimal whole numbers.
-- Business Score: Defined as a Number (decimal), indicating the data has precision and requires decimal values.
-- Rail Lines: Marked as a Number (decimal), also requiring decimal precision.
-- Passenger Distance Traveled: Number (decimal) type, where distance data likely includes decimals.
-- Incoming Tourists: Categorized as Number (whole), implying the tourist count is an integer.
-
-### Organizing the Fields
-I placed a few related fields together and organized them into the following folders:
-
-- Business
-
-     - Business Score
-
-     - GDP
-
-- Country
-
-     - Country
-
-     - Population
-
-- Travel
-
-     - ncoming Tourists
-
-     - Passenger Distance Traveled
-
-     - Rail Lines
+- Renamed and simplified fields for clarity (e.g., country, rail lines).
+- Converted data types appropriately for numeric and geographic analysis.
+- Applied country filters to focus on the latest year (2019) for consistent comparisons. 
 
 ## DATA ANALYSIS
 
@@ -116,6 +75,15 @@ I built a map with the six countries above to see their geographic relationship 
 - Of the two countries that share a geographic proximity, France has a significantly higher number of incoming tourists (i.e 217,877,000) which is roughly 5.5 times as many incoming tourists as Germany, indicating a substantially larger and more lucrative market for rail travel. This significant difference in tourist numbers suggests greater potential for customer base expansion and revenue generation in the rail market.
 
 ## RECOMMENDATION
-After a thorough analysis, France emerges as the top pick. It stands out in passenger volume and extensive rail lines, striking a perfect balance with its robust economy and business-friendly environment. Its geographic location offers potential for international expansion, notably with promising neighboring countries. Moreover, France's exceptional tourist appeal, leading in visitor inflow, presents a lucrative market for rail travel. These combined factors make France the most promising country for establishing the new rail travel company.
+Based on combined indicators of rail usage, business friendliness, and economic performance, the analysis suggests selecting a **country with both high rail travel demand and a strong business environment** as the launch market for the new railway travel service.
+
+France emerges as the top pick. It stands out in passenger volume and extensive rail lines, striking a perfect balance with its robust economy and business-friendly environment. Its geographic location offers potential for international expansion, notably with promising neighboring countries. Moreover, France's exceptional tourist appeal, leading in visitor inflow, presents a lucrative market for rail travel. These combined factors make France the most promising country for establishing the new rail travel company.
+
+
 
 [View Dashboard Here](https://public.tableau.com/shared/37M2BSZNQ?:display_count=n&:origin=viz_share_link)
+
+## Tools & Technologies
+
+- Excel (data source)
+- Tableau(for visualization)
