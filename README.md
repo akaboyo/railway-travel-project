@@ -3,13 +3,14 @@
 ![Railway logo](https://github.com/user-attachments/assets/4bec1009-7af5-4806-89a8-6f9b5d92cfe6)
 
 ## Table of Contents
-- [EXECUTIVE SUMMARY](#executive-summary)
-- [PROJECT OVERVIEW](#project-overview)
 - [BUSINESS PROBLEM](#business-problem)
 - [DATA SOURCE](#data-source)
 - [DATA PREPROCESSING](#data-preprocessing)
-- [DATA ANALYSIS](#data-analysis)
+- [ANALYSIS WALKTHROUGH](#analysis-walkthrough)
+- [WHY NOT GERMANY?](#why-not-germany?)
 - [RECOMMENDATION](#recommendation)
+- [SKILLS DEMONSTRATED](#skills-demonstrated)
+- [TOOLS](#tools)
 
 ## Executive Summary
 
