@@ -21,14 +21,14 @@ Using the World Development Indicators dataset, I built a four-stage filter — 
 - **France** is the recommended launch market
 
 ## Table of Contents
-- [BUSINESS PROBLEM](#business-problem)
-- [DATA SOURCE](#data-source)
-- [DATA PREPROCESSING](#data-preprocessing)
-- [ANALYSIS WALKTHROUGH](#analysis-walkthrough)
-- [WHY NOT GERMANY?](#why-not-germany?)
-- [RECOMMENDATION](#recommendation)
-- [SKILLS DEMONSTRATED](#skills-demonstrated)
-- [TOOLS](#tools)
+- [Business Problem](#business-problem)
+- [Data Source](#data-source)
+- [Data Preprocessing](#data-preprocessing)
+- [Analysis Walkthrough](#analysis-walkthrough)
+- [Why Not Germany?](#why-not-germany?)
+- [Recommendation](#recommendation)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Tools](#tools)
 
 ## Business Problem
 
@@ -121,7 +121,7 @@ Based on combined rail demand, business environment, and tourism potential, **Fr
 `Data Cleaning & Preprocessing` • `Calculated Fields` • `Funnel / Elimination Analysis` • `Comparative Analysis` • `Geospatial Analysis` • `Dashboard Design` • `Data Storytelling` • `Stakeholder Communication` • `Business Recommendation Writing`
 
 
-## Tools & Technologies
+## Tools
 - **Excel** - data source and preprocessing
 - **Tableau** - visualization and interactive dashboard
 
