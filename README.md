@@ -13,11 +13,11 @@ This project simulates a real market-entry decision: **as the analyst for a new 
 Using the World Development Indicators dataset, I built a four-stage filter — rail usage → economic strength → business environment → expansion potential — to narrow 200+ countries down to one recommendation. The goal wasn't just to find interesting patterns in the data, but to answer a decision a real executive team would need to make, and to make the trade-offs visible enough that they could challenge it.
 
 **Summary**
--  🚆 **10 countries** carry 91%+ of global rail passenger volume
-- 💼 Filtering those 10 by GDP per capita and ease-of-doing-business narrows the list to **6**
-- 🗺️ Mapping those 6 geographically surfaces **France and Germany** as the only bordering pair — relevant for future expansion
-- 🧳 Comparing tourism inflow between the two, **France** wins by ~5.5x
-- ✅ **France** is the recommended launch market
+- **10 countries** carry 91%+ of global rail passenger volume
+- Filtering those 10 by GDP per capita and ease-of-doing-business narrows the list to **6**
+- Mapping those 6 geographically surfaces **France and Germany** as the only bordering pair — relevant for future expansion
+- Comparing tourism inflow between the two, **France** wins by ~5.5x
+- **France** is the recommended launch market
 
 ## Table of Contents
 - [BUSINESS PROBLEM](#business-problem)
