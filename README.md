@@ -62,7 +62,9 @@ A bar chart of passenger distance traveled by rail across all countries.
 
 ![Bar chart](https://github.com/user-attachments/assets/efa42405-1c52-42a8-8a18-b776c055f2de)
 
-### KEY INSIGHTS
+
+
+**Insight:** 
 - China has the highest passenger distance travelled with 1,438,606
 - The U.S., despite having one of the largest rail networks by length (149,489 km), carries a surprisingly small share of passengers relative to that infrastructure — a network-size-to-usage mismatch worth flagging for anyone assuming "more track = more passengers."
 
@@ -93,7 +95,7 @@ Only **France and Germany** share a land border. That single fact reshapes the d
 
 ### Step 5 — France vs. Germany: the tiebreaker
 
-
+<img width="983" height="489" alt="Image" src="https://github.com/user-attachments/assets/8304b951-e7cb-463a-9e2a-bed08af16282" />
 
 **Insight:** 
 France draws **217.9M inbound tourists** — roughly **5.5x** Germany's volume. That's a materially larger pool of potential rail customers on day one, not just a marginally better score.
