@@ -1,6 +1,23 @@
-# Railway Travel Company 
-
 ![Railway logo](https://github.com/user-attachments/assets/4bec1009-7af5-4806-89a8-6f9b5d92cfe6)
+
+# Railway Travel Company: Market Entry Analysis
+Where should a new railway travel startup launch first? A data-driven market selection analysis using global rail, economic, and tourism indicators.
+
+## VERDICT
+**Recommendation: Launch in France.**
+France is the only market in the analysis with high rail passenger demand, a strong business environment, a border with another top-6 market (Germany) for future expansion, and ~5.5x the inbound tourist volume of its nearest comparable neighbor — the single largest addressable customer base in the shortlist.
+
+## Executive Summary
+This project simulates a real market-entry decision: **as the analyst for a new railway travel startup, which country should we launch in first?**
+
+Using the World Development Indicators dataset, I built a four-stage filter — rail usage → economic strength → business environment → expansion potential — to narrow 200+ countries down to one recommendation. The goal wasn't just to find interesting patterns in the data, but to answer a decision a real executive team would need to make, and to make the trade-offs visible enough that they could challenge it.
+
+**Summary**
+-  🚆 **10 countries** carry 91%+ of global rail passenger volume
+- 💼 Filtering those 10 by GDP per capita and ease-of-doing-business narrows the list to **6**
+- 🗺️ Mapping those 6 geographically surfaces **France and Germany** as the only bordering pair — relevant for future expansion
+- 🧳 Comparing tourism inflow between the two, **France** wins by ~5.5x
+- ✅ **France** is the recommended launch market
 
 ## Table of Contents
 - [BUSINESS PROBLEM](#business-problem)
@@ -12,26 +29,15 @@
 - [SKILLS DEMONSTRATED](#skills-demonstrated)
 - [TOOLS](#tools)
 
-## Executive Summary
+## Business Problem
 
-This project demonstrates how data can be translated into clear business recommendations to support market entry decisions for a railway travel startup. Using global development and transport indicators, the analysis evaluates rail passenger demand, infrastructure maturity, economic strength, and ease of doing business to identify countries with the strongest commercial potential.
+As the newly hired data analyst for a startup railway travel company, my task was to identify the market with the **strongest potential for success**. Three questions drove the analysis:
 
-The work prioritises practical business questions over technical complexity, combining multiple indicators into a coherent decision framework. Visual dashboards and comparative charts are used to highlight trade-offs between demand, economic viability, and operational feasibility. The outcome is a structured, evidence-based recommendation that mirrors how business analysts support strategic planning, investment decisions, and executive discussions.
+1. Which countries have the greatest existing rail usage?
+2. How does that usage align with economic strength and ease of doing business?
+3. Which markets offer the best balance of infrastructure, demand, and growth potential?
 
-This project showcases core business analyst capabilities: problem framing, metric selection, insight generation, and stakeholder-ready communication.
-## PROJECT OVERVIEW 
-This is a **data analytics project** that helps determine the best country to launch a new railway travel company based on global economic and rail usage metrics. The analysis combines infrastructure, travel demand, economic performance, and business environment factors to support strategic decision-making.
-
-## BUSINESS PROBLEM 
-
-As a newly hired data analyst for a startup railway travel company, the goal was to identify markets with the **strongest potential for success**. 
-The key questions addressed are:
-
-- Which countries have the greatest existing rail usage?
-- How does rail usage align with economic strength and ease of doing business?
-- Which markets offer a balance of infrastructure, demand, and growth potential?
-
-## DATA SOURCE
+## Data Source
 
 The analysis uses the **World Development Indicators dataset**, which contains country-level metrics including:
 
@@ -42,49 +48,77 @@ The analysis uses the **World Development Indicators dataset**, which contains c
 
 Download dataset here [World-Development-Indicators dataset.xlsx](https://github.com/user-attachments/files/17147007/World-Development-Indicators.dataset.xlsx)
 
-## DATA PREPROCESSING
+## Data Preprocessing
 
 - Renamed and simplified fields for clarity (e.g., country, rail lines).
 - Converted data types appropriately for numeric and geographic analysis.
-- Applied country filters to focus on the latest year (2019) for consistent comparisons. 
+- Applied country filters to focus on the latest year (2019) for consistent comparisons.
+- Built a calculated field for **GDP per capita** (GDP ÷ Population), since it wasn't in the raw data
 
-## DATA ANALYSIS
+## Analysis Walkthrough
+### Step 1 — Who actually uses rail the most?
 
-Since the highest priority is to identify countries that have a high passenger usage of existing railways, i created a bar chart to see how the countries compare with one another.
+A bar chart of passenger distance traveled by rail across all countries.
+
+![Bar chart](https://github.com/user-attachments/assets/efa42405-1c52-42a8-8a18-b776c055f2de)
 
 ### KEY INSIGHTS
 - China has the highest passenger distance travelled with 1,438,606
-- United States ranks high in having an extensive railway network (i.e 149,489 railways), but only carried 32,483 passengers when considering the total length of existing railways.
-![Bar chart](https://github.com/user-attachments/assets/efa42405-1c52-42a8-8a18-b776c055f2de)
+- The U.S., despite having one of the largest rail networks by length (149,489 km), carries a surprisingly small share of passengers relative to that infrastructure — a network-size-to-usage mismatch worth flagging for anyone assuming "more track = more passengers."
 
-- Ten Countries are responsible for carrying over 91% of the distance traveled by passengers worldwide. These same countries contain over 60.1% of the world's rails. These countries, are referred to as the Top 10. I created a set to visualize this analysis as shown below:
+### Step 2 — Who dominates global rail usage?
+
+Ten countries carry **91%+** of all rail passenger distance worldwide and hold **60.1%** of the world's total rail infrastructure.
 
 ![Top 10](https://github.com/user-attachments/assets/8c13d119-1ac8-4ce9-a067-17efaa076cba)
 
-The next top priorities are focused on business-related fields — specifically, the GDP per capita and the ease of doing business. Ideally, we’ll want to set up the business in a country that has a high GDP per capita AND ease of doing business score. 
-i created a scatter plot with the Business Score on the x-axis and GDP Per Capita on the y-axis. (Note: i first had to create a calculated field for the GDP Per Capita, which is the GDP divided by the Population.)
+**Insight:** 
+Rail demand is heavily concentrated — this isn't a fragmented global market, it's a short list of countries worth evaluating further.
+
+### Step 3 — Which of those 10 are actually good places to run a business?
 
 ![Top 6](https://github.com/user-attachments/assets/5c76ba20-0b40-4898-86c7-39a3dfada52c)
-- Of the ten countries previously selected based on rail travel, the selection is narrowed down to six based on the ease of doing business score and the GDP Per Capita.The six (06) countries are : United States, Germany, France, Japan, United Kingdom and Korea Republic.
 
-It would be nice to think about the possibility of future international expansion, ideally meaning i select a country that has neighboring countries that are also promising.
-I built a map with the six countries above to see their geographic relationship with one another and to see if there are any countries to remove from the list. 
-- The map shows that France and Germany share a land border.
+**Insight:** 
+Six countries stand out on both dimensions: **United States, Germany, France, Japan, United Kingdom, South Korea.** High rail demand alone is not enough - a market also has to be economically strong and easy to operate in.
+
+### Step 4 — Which of the 6 sets up best for future expansion?
+
+Mapping the six finalists to check for geographic proximity — a market with a friendly, promising neighbor is more attractive for a multi-country expansion roadmap.
 
 ![Map](https://github.com/user-attachments/assets/61065c20-0878-450b-8d0e-9c44c7e89ced)
 
-- Of the two countries that share a geographic proximity, France has a significantly higher number of incoming tourists (i.e 217,877,000) which is roughly 5.5 times as many incoming tourists as Germany, indicating a substantially larger and more lucrative market for rail travel. This significant difference in tourist numbers suggests greater potential for customer base expansion and revenue generation in the rail market.
+**Insight:** 
+Only **France and Germany** share a land border. That single fact reshapes the decision — everything from here is a head-to-head between those two.
 
-## RECOMMENDATION
-Based on combined indicators of rail usage, business friendliness, and economic performance, the analysis suggests selecting a **country with both high rail travel demand and a strong business environment** as the launch market for the new railway travel service.
-
-France emerges as the top pick. It stands out in passenger volume and extensive rail lines, striking a perfect balance with its robust economy and business-friendly environment. Its geographic location offers potential for international expansion, notably with promising neighboring countries. Moreover, France's exceptional tourist appeal, leading in visitor inflow, presents a lucrative market for rail travel. These combined factors make France the most promising country for establishing the new rail travel company.
+### Step 5 — France vs. Germany: the tiebreaker
 
 
 
-[View Dashboard Here](https://public.tableau.com/app/profile/adebayo.adebanjo/viz/RailwayTravelCoyProject/RailwayTravelCoyProject)
+**Insight:** 
+France draws **217.9M inbound tourists** — roughly **5.5x** Germany's volume. That's a materially larger pool of potential rail customers on day one, not just a marginally better score.
+
+## Why Not Germany?
+
+Germany passed every earlier filter — strong economy, easy to do business, borders France for expansion — so it's the natural pushback question. It loses on the metric that matters most for a *travel* company: addressable customer volume. France's tourist inflow is large enough that it isn't a close call, and the shared border means Germany isn't off the table — it's a logical **Phase 2** market once France is established.
+
+## Recommendation
+
+Based on combined rail demand, business environment, and tourism potential, **France** is the strongest launch market:
+
+- **Demand:** Top-10 in rail passenger volume with strong existing rail infrastructure
+- **Business environment:** High GDP per capita, high ease-of-doing-business score
+- **Expansion runway:** Land border with Germany, the next-best market in the shortlist
+- **Market size:** Largest inbound tourism base among the finalists (~5.5x Germany's)
+
+[Explore the full Interactive Dashboard on Tableau](https://public.tableau.com/app/profile/adebayo.adebanjo/viz/RailwayTravelCoyProject/RailwayTravelCoyProject)
+
+## Skills Demonstrated
+
+`Data Cleaning & Preprocessing` • `Calculated Fields` • `Funnel / Elimination Analysis` • `Comparative Analysis` • `Geospatial Analysis` • `Dashboard Design` • `Data Storytelling` • `Stakeholder Communication` • `Business Recommendation Writing`
+
 
 ## Tools & Technologies
+- **Excel** - data source and preprocessing
+- **Tableau** - visualization and interactive dashboard
 
-- Excel (data source)
-- Tableau(for visualization)
