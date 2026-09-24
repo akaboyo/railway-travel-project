@@ -5,6 +5,7 @@ Where should a new railway travel startup launch first? A data-driven market sel
 
 ## VERDICT
 **Recommendation: Launch in France.**
+
 France is the only market in the analysis with high rail passenger demand, a strong business environment, a border with another top-6 market (Germany) for future expansion, and ~5.5x the inbound tourist volume of its nearest comparable neighbor — the single largest addressable customer base in the shortlist.
 
 ## Executive Summary
@@ -62,7 +63,7 @@ A bar chart of passenger distance traveled by rail across all countries.
 
 ![Bar chart](https://github.com/user-attachments/assets/efa42405-1c52-42a8-8a18-b776c055f2de)
 
-
+<img width="698" height="440" alt="Image" src="https://github.com/user-attachments/assets/8d3cee89-663a-4f04-ae4d-3dc837939100" />
 
 **Insight:** 
 - China has the highest passenger distance travelled with 1,438,606
