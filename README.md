@@ -6,12 +6,12 @@ Where should a new railway travel startup launch first? A data-driven market sel
 ## VERDICT
 **Recommendation: Launch in France.**
 
-France is the only market in the analysis with high rail passenger demand, a strong business environment, a border with another top-6 market (Germany) for future expansion, and ~5.5x the inbound tourist volume of its nearest comparable neighbor — the single largest addressable customer base in the shortlist.
+France is the only market in the analysis with high rail passenger demand, a strong business environment, a border with another top-6 market (Germany) for future expansion, and ~5.5x the inbound tourist volume of its nearest comparable neighbor - the single largest addressable customer base in the shortlist.
 
 ## Executive Summary
 This project simulates a real market-entry decision: **as the analyst for a new railway travel startup, which country should we launch in first?**
 
-Using the World Development Indicators dataset, I built a four-stage filter — rail usage → economic strength → business environment → expansion potential — to narrow 200+ countries down to one recommendation. The goal wasn't just to find interesting patterns in the data, but to answer a decision a real executive team would need to make, and to make the trade-offs visible enough that they could challenge it.
+Using the World Development Indicators dataset, I built a four-stage filter - rail usage → economic strength → business environment → expansion potential — to narrow 200+ countries down to one recommendation. The goal wasn't just to find interesting patterns in the data, but to answer a decision a real executive team would need to make, and to make the trade-offs visible enough that they could challenge it.
 
 **Summary**
 - **10 countries** carry 91%+ of global rail passenger volume
@@ -67,7 +67,7 @@ A bar chart of passenger distance traveled by rail across all countries.
 
 **Insight:** 
 - China has the highest passenger distance travelled with 1,438,606
-- The U.S., despite having one of the largest rail networks by length (149,489 km), carries a surprisingly small share of passengers relative to that infrastructure — a network-size-to-usage mismatch worth flagging for anyone assuming "more track = more passengers."
+- The U.S., despite having one of the largest rail networks by length (149,489 km), carries a surprisingly small share of passengers relative to that infrastructure - a network-size-to-usage mismatch worth flagging for anyone assuming "more track = more passengers."
 
 ### Step 2 — Who dominates global rail usage?
 
@@ -76,9 +76,9 @@ Ten countries carry **91%+** of all rail passenger distance worldwide and hold *
 ![Top 10](https://github.com/user-attachments/assets/8c13d119-1ac8-4ce9-a067-17efaa076cba)
 
 **Insight:** 
-Rail demand is heavily concentrated — this isn't a fragmented global market, it's a short list of countries worth evaluating further.
+Rail demand is heavily concentrated - this isn't a fragmented global market, it's a short list of countries worth evaluating further.
 
-### Step 3 — Which of those 10 are actually good places to run a business?
+### Step 3 - Which of those 10 are actually good places to run a business?
 
 ![Top 6](https://github.com/user-attachments/assets/5c76ba20-0b40-4898-86c7-39a3dfada52c)
 
@@ -87,12 +87,12 @@ Six countries stand out on both dimensions: **United States, Germany, France, Ja
 
 ### Step 4 — Which of the 6 sets up best for future expansion?
 
-Mapping the six finalists to check for geographic proximity — a market with a friendly, promising neighbor is more attractive for a multi-country expansion roadmap.
+Mapping the six finalists to check for geographic proximity - a market with a friendly, promising neighbor is more attractive for a multi-country expansion roadmap.
 
 ![Map](https://github.com/user-attachments/assets/61065c20-0878-450b-8d0e-9c44c7e89ced)
 
 **Insight:** 
-Only **France and Germany** share a land border. That single fact reshapes the decision — everything from here is a head-to-head between those two.
+Only **France and Germany** share a land border. That single fact reshapes the decision - everything from here is a head-to-head between those two.
 
 ### Step 5 — France vs. Germany: the tiebreaker
 
@@ -103,7 +103,7 @@ France draws **217.9M inbound tourists** — roughly **5.5x** Germany's volume. 
 
 ## Why Not Germany?
 
-Germany passed every earlier filter — strong economy, easy to do business, borders France for expansion — so it's the natural pushback question. It loses on the metric that matters most for a *travel* company: addressable customer volume. France's tourist inflow is large enough that it isn't a close call, and the shared border means Germany isn't off the table — it's a logical **Phase 2** market once France is established.
+Germany passed every earlier filter - strong economy, easy to do business, borders France for expansion - so it's the natural pushback question. It loses on the metric that matters most for a *travel* company: addressable customer volume. France's tourist inflow is large enough that it isn't a close call, and the shared border means Germany isn't off the table - it's a logical **Phase 2** market once France is established.
 
 ## Recommendation
 
